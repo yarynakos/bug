@@ -11,14 +11,14 @@ int main() {
     bug2.print();
     bug3.print();
     bug4.print();
-    cout<<"\n\n"<<endl;
+    cout << "\n\n" << endl;
     Backlog backlog;
     backlog.addBug(bug1);
     backlog.addBug(bug2);
     backlog.addBug(bug3);
     backlog.addBug(bug4);
     backlog.sortBugs();
-    cout<<"\n\n"<<endl;
+    cout << "\n\n" << endl;
     backlog.find("Yulia");
 }
 

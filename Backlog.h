@@ -1,20 +1,19 @@
 #include "Bug.h"
-using namespace std;
 #include <vector>
 
+using namespace std;
 
-class Backlog{
+class Backlog {
 private:
-    vector<Bug> bugs;
+    vector <Bug> bugs;
 public:
-    void addBug (Bug bug){
+    void addBug(Bug bug) {
         bugs.push_back(bug);
     }
-    Backlog(){
 
-    }
+    Backlog() {}
+
     void sortBugs();
- void find(string name);
 
-
+    void find(string name);
 };
